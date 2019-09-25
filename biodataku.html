@@ -11,18 +11,23 @@
 	<meta name="robots" content="noindex, nofollow">
 <style>
 
-table#t00 {background-color: Cornsilk;}
+table#t00 {padding: 4px;
+			background-color: Cornsilk;}
 			
-table#t01 {
+table#t01 {width:50%;
+			padding: 20px;
 			background-color: Cornsilk; }
 
-table#t02 {
+table#t02 {width:50%;
+	padding: 20px;
 	background-color: khaki;}
 
-table#t03 {width:40%;
+table#t03 {width:50%;
+	padding: 20px;
 	background-color: PowderBlue;}
 
 th, td {
+  padding: 4px;
   font-size: 25px;}
 
 th {color: Chocolate;
@@ -40,32 +45,11 @@ footer {
   color:#8F00FF;
 }
 
-nav {
-  width: 100%;
-  font-size: 20px;
-  background-color:Seashell;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-article {
-  padding: 9px;
-  background-color: DarkSlateBlue;
-  float: left;
-  width: 97%;
-  height: 295px; 
-  text-align:center;
-  line-height:1,5em;
-}
-
-@media (max-width: 200px) {
-  nav,article,nav ul,table,th,td{
-    width: auto;
-    height: 100%;
+@media (max-width: 600px) {
+  nav, article {
+    width: 60%;
+    height: auto;
   }
-
 
 </style>
 </head>
@@ -73,9 +57,11 @@ article {
 <body background = image/warna.png alt ="Gambar Indah" title ="Sungguh Indah">
 	<center><h1 style ="font-family:Vivaldi; font-size : 50px;color :rgb(106, 42, 140);">Biodata</center> </h1>
 
-	<audio src="audio/lagu.mp3" controls></audio>
+<audio controls>
+ <source src="audio/lagu.mp3" type ="audio/mp3"></audio>
 
-	<table id="t01">
+<center>
+<table id="t01">
   <img src="image/aku.jpg"width="290" height="280" alt ="Foto 'Mutiara'" title ="Ini aku 'Mutiara'"> <tr>
     <br>
 	<th>Nama </th> 
@@ -147,7 +133,9 @@ article {
     <td>Marshanda Aulia Putri</td>
   </tr>
 </table>
+</center>
 
+<center>
 <h1 style ="font-family:Vivaldi;font-size:50px;color :rgb(90, 20, 205)">Riwayat Pendidikan </h1>
 <table id="t02">
  <tr>
@@ -160,7 +148,9 @@ article {
     <td>SMA Negeri 2 Pontianak </td>
   </tr>	
 </table>
+</center>
 
+<center>
 <table id="t03">
 <h1 style ="font-family:Vivaldi ; font-size:50px;color : DarkMagenta">Akun Media Sosial </h1>
  <tr>
@@ -176,36 +166,29 @@ article {
   	<td><a href="http://www.gmail.com/"> <b style = "color : rgb(115, 78, 30)"> mutiarafitri2000@gmail.com </a></b></td>
   </tr>
 </table>
-</section>
-</article>
+</center>
 
-<section>
-	<article>
-<iframe width ="560" height= "315"src="https://youtube.com/embed/7bVkb7k_KIw" frameborder="0" ">
+<br><br>
+<center>
+<iframe width ="560" height= "315"src="https://youtube.com/embed/HmN61FLMnNY" frameborder="0" ">
 </iframe>
-
 <video src ="video/video.mp4" controls>
 </video>
-</article>
-</section>
+</br></br></center>
+
 
 <br>
 <a href="pengantar.html"> <img src="image/kembali.png" width ="15%" alt= "Gambar Tidak ditemukan"title="Kembali ke Menu Awal "></a>
 </br> 
 
 <table id="t00">
-<nav>
-    <ul>
-      <li> <a href="form.html">|Form Pendaftaran|</a>
-      </li></ul>
-</nav>
+<td><a href="form.html"><h1 style ="font-family:Vivaldi; font-size : 29px;color :rgb(106, 42, 140);">Form Pendaftaran</a></td>
 </table>
 
 <br>
 <marquee><h1 style = "font-family: Castellar"> Sekian & Terima Kasih ^_^</marquee></h1>
 </br>
 
- 
 <footer>
   <p>Copyright @ 2019 - Mutiara Fitri Ramadhanti</p>
 </footer>
