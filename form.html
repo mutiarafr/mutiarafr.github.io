@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>Form Pendaftaran</title>
+	<title>FORM PENDAFTARAN</title>
 	<meta charset="utf-8">
 	<meta name="author" content ="Mutiara Fitri Ramadhanti">
 	<meta name="keyword" content ="Website Mutiara">
@@ -10,50 +9,126 @@
 	<meta name="description" content="Memiliki biodata diri dan Form Pendaftaran">
 	<meta name="robots" content="noindex, nofollow">
 	<link rel ="icon" href="image/aku.jpg">
+<style>
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	background-color: DarkTurquoise;
+}
+
+.header, .navigasi, .konten{
+	margin-bottom: 1px;
+	padding: 10px 0;
+}
+
+.konten {
+	font-size: 20px;
+	padding: 30px;
+	text-align: center;
+	background-color: black;
+	color: DarkTurquoise;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+	background: DarkTurquoise;
+	text-align: center;
+	font-family: Castellar;
+	color: black;
+}
+
+.navigasi {
+	width: 100%;
+	height: auto;
+	background: linear-gradient(to right, grey, black);
+	text-align: center;
+}
+
+.navigasi ul{
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+}
 	
-<style >
-	header {
-		background-color:#FFC0CB;
-        text-align: center;
-        font-size: 30px;
-        font-family: comic sans ms;
-        color: #808080;}
-  
-	td, tr {
-		font-size: 12px;
-		color: SaddleBrown;}
-		
-	table{ 
-		background-color: PowderBlue; }
+.navigasi li{
+	float: left;
+	font-size: 16px;
+	margin: 0 5px;
+}
+
+.navigasi a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.navigasi a:hover{
+	color: DarkTurquoise;
+	font-weight: bold;
+}
+
+td,tr{
+  	font-size: 22px;
+  	color: gold;}
+	
+table{ 
+  	width:72%;
+  	padding: 56px;
+  	background-color: darkslategray; }
 			
-	input, select{
-		font-size: 12px;
-        font-family: Lucida Calligraphy}
+input{
+	font-size: 19px;
+    font-family: Lucida Calligraphy}
 
-	footer {
+select{
+	font-size: 18px;
+    font-family: Lucida Calligraphy}
+
+footer{
+	padding: 8px;
+	font-size: 13px;
+	color: white;
+	background: linear-gradient(to right, black, dimgrey);
+}
+
+@media (max-width: 500px) {
+ 	.navigasi, .header, .navigasi, .konten, .navigasi a,footer {
+    			float:none;
+		 		width: auto;
+    			height: 100%;
+}
+	
+	.navigasi li,.navigasi ul,{
+		width:100%;
+		float:none;
 		text-align: center;
-		color:#808080;}
+}
 
-	nav {
-		width: 100%;
-		font-size: 20px;}
-
-	nav ul {
-		list-style-type: none;}
-
-	@media (max-width: 600px) {
-		nav,nav ul,table,th,td{
-		width: 100%;
-		height: auto;}
 </style>
 </head>
 
-<header > FORM PENDAFTARAN</header>
-<body background = image/cantik.png alt ="Gambar Indah" title ="Sungguh Indah">
+<body>
+<header> 
+	<div class="header">
+		<h1>Selamat Datang di WEBSITE HTML</h1>
+		<h4>Punya MUTIARA FITRI RAMADHANTI</h4>
+	</div>
+	<div class="navigasi">
+			<ul>
+				<li><a href="pengantar.html">HOME</a></li>
+				<li><a href="biodataku.html">BIODATAKU</a></li>
+				<li><a href="form.html">FORM PENDAFTARAN</a></li>
+			</ul>
+	</div>
+</header>
 
 <center>
 <form >
-  <table cellspacing ="7">
+  <table cellspacing ="25">
   <tr>
     <td>Nama Awal : </td> 
     <td><input type="text" placeholder ="Masukkan Nama Awal" maxlength="10"> </td>
@@ -244,12 +319,12 @@
 
   <tr>
     <td>Jenis Kelamin :</td> 
-    <td><input type="radio" name="gender" value="Laki-laki">Laki-Laki
+    <td><input type="radio" name="gender" value="Laki-laki"> Laki-Laki
          <input type="radio" name="gender" value="Perempuan"> Perempuan </td>
   </tr>
 
   <tr>
-    <td>Golongan Darah :</td> 
+    <td>Gol. Darah :</td> 
     <td><input type="radio" name="goldar" value="A"> A
          <input type="radio" name="goldar" value="B"> B 
 		 <input type="radio" name="goldar" value="AB"> AB 
@@ -262,25 +337,20 @@
   </tr>
 
   <tr>
-    <td><input type="submit" value="Submit">
-          <input type="reset"> </td>
+    <td><br/><br/><input type="submit" value="Submit"></td>
+    <td><br/><br/><input type="reset"> </td>
   </tr>
 
- </table>
- </form>
- </center>
-   
-	<nav>
-		<ul>
-			<li> 	<a href="pengantar.html">|Menu Awal|</a>
-				<a href="biodataku.html">Biodataku|</a>
-			</li>
-		</ul>
-	</nav>
+   </table>
+   </form>
+    </center>
 
-  <footer>
-  <p>Copyright @ 2019 - Mutiara Fitri Ramadhanti</p>
-  </footer>
+<br>
+<marquee><h5 style = "font-family: Lucida Calligraphy;"> JANGAN LUPA DIISI YA ^-^</marquee></h5>
+</br>
 
+<footer>
+		<center>&copy; Copyright - Mutiara Fitri Ramadhanti | D1041171005</center>
+</footer>
 </body>
 </html>
