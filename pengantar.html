@@ -14,6 +14,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-size: 15px;
 	background-color: DarkTurquoise;
 }
 
@@ -55,7 +56,7 @@ body {
 	
 .navigasi li{
 	float: left;
-	font-size: 16px;
+	font-size: 15px;
 	margin: 0 5px;
 }
 
@@ -99,6 +100,14 @@ footer{
 		<h1>Selamat Datang di WEBSITE HTML</h1>
 		<h4>Punya MUTIARA FITRI RAMADHANTI</h4>
 	</div>
+	<center>
+	<div id="hasil"></div>
+		<script>
+			var tanggal = new Date ();
+
+			document.getElementById("hasil").innerHTML = tanggal;
+		</script>
+	</center>
 	<div class="navigasi">
 			<ul>
 				<li><a href="pengantar.html">Home</a></li>
@@ -130,4 +139,5 @@ footer{
 		<center>&copy; Copyright - Mutiara Fitri Ramadhanti | D1041171005</center> 
 </footer>
 </body>
-</html> 
+</html>
+
