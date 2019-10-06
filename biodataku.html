@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<title>BIODATAKU</title>
-	<meta charset="utf-8">  
+	<meta charset="utf-8">   
 	<meta name="author" content ="Mutiara Fitri Ramadhanti">  
 	<meta name="keyword" content ="Website Mutiara">
 	<meta name="viewport" content="width=device-width, initial-scale=1">   
@@ -55,7 +55,7 @@ th {
 	
 .navigasi li {
 	float: left;
-	font-size: 16px;
+	font-size: 15px;
 	margin: 0 5px;
 }
 	
@@ -146,9 +146,17 @@ footer{
 <body>
 <header> 
 	<div class="header">
-		<h1>Selamat Datang di WEBSITE HTML</h1>
+		<h2>Selamat Datang di WEBSITE HTML</h2>
 		<h4>Punya MUTIARA FITRI RAMADHANTI</h4>
 	</div>
+	<center>
+	<div id="hasil"></div>
+		<script>
+			var tanggal = new Date ();
+
+			document.getElementById("hasil").innerHTML = tanggal;
+		</script>
+	</center>
 	<div class="navigasi">
 			<ul>
 				<li><a href="pengantar.html">HOME</a></li>
