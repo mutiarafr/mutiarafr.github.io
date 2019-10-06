@@ -72,16 +72,20 @@ body {
 }
 
 td,tr{
-  	font-size: 16px;
+  	font-size: 18px;
   	color: gold;}
 	
 table{ 
-  	width:72%;
-  	padding: 56px;
+  	width:45%;
+  	padding: 29px;
   	background-color: darkslategray; }
 			
 input{
-	font-size: 19px;
+	font-size: 20px;
+    font-family: Lucida Calligraphy}
+
+textarea{
+	font-size: 12px;
     font-family: Lucida Calligraphy}
 
 select{
@@ -156,7 +160,7 @@ footer{
 
   <tr>
     <td>Alamat :</td> 
-    <td><input type="text" placeholder ="Masukkan Alamat" maxlength="20" > </td>
+    <td><textarea name ="textarea"placeholder ="Masukkan Alamat" rows = 4 cols = 31></textarea> </td>
   </tr>
   
   <tr>
@@ -192,7 +196,7 @@ footer{
   
   <tr>
     <td>Tanggal Lahir : </td> 
-    <td><select><option>Pilih Tanggal Lahir</option>
+    <td><select><option>Tanggal</option>
 	<option value="1">1</option>
 	<option value="2">2</option>
 	<option value="3">3</option>
@@ -226,7 +230,7 @@ footer{
 	<option value="31">31</option>
 	</select>
 	
-	<select><option>Pilih Bulan Lahir</option>
+	<select><option>Bulan</option>
 	<option value="1">Januari</option>
 	<option value="2">Februari</option>
 	<option value="3">Maret</option>
@@ -241,7 +245,7 @@ footer{
 	<option value="12">Desember</option>
 	</select>
 
-	<select><option>Pilih Tahun Lahir</option>
+	<select><option>Tahun</option>
 	<option value="1980">1980</option>
 	<option value="1981">1981</option>
 	<option value="1982">1982</option>
@@ -319,21 +323,51 @@ footer{
 
   <tr>
     <td>Jenis Kelamin :</td> 
-    <td><input type="radio" name="gender" value="Laki-laki"> Laki-Laki
-         <input type="radio" name="gender" value="Perempuan"> Perempuan </td>
+    <td><input type="radio" name="gender" value="Pria"> Pria
+         <input type="radio" name="gender" value="Wanita"> Wanita </td>
   </tr>
 
   <tr>
     <td>Gol. Darah :</td> 
-    <td><input type="radio" name="goldar" value="A"> A
-         <input type="radio" name="goldar" value="B"> B 
-		 <input type="radio" name="goldar" value="AB"> AB 
-		 <input type="radio" name="goldar" value="O"> O </td>
+    <td><input type="radio" name="goldar" value="A"> A </td>
+  </tr>
+  <tr>
+  	<td> &nbsp;</td>
+    <td><input type="radio" name="goldar" value="B"> B </td>
+  </tr>
+  <tr>
+  	<td> &nbsp;</td>
+  	<td><input type="radio" name="goldar" value="AB"> AB </td>
+  </tr>
+  <tr>
+  	<td> &nbsp;</td>
+  	<td><input type="radio" name="goldar" value="O"> O </td>
   </tr>
   
   <tr>
     <td>Email :  </td> 
     <td><input type="email" placeholder ="Masukkan email" autocomplete="off"> </td>
+  </tr>
+
+  <tr>
+    <td>Hobi :  </td> 
+    <td><input type="checkbox" name ="checkbox" value="checkbox"> Menulis </td>
+  </tr>
+  <tr>  
+    <td> &nbsp;</td>
+    <td><input type="checkbox" name ="checkbox" value="checkbox"> Membaca </td>
+  </tr> 
+  <tr> 
+    <td> &nbsp;</td>
+    <td><input type="checkbox" name ="checkbox" value="checkbox"> Berenang </td>
+  </tr>
+  <tr>
+  	<td> &nbsp;</td>
+    <td><input type="checkbox" name ="checkbox" value="checkbox"> Stalking </td>
+  </tr>
+  <tr>  
+    <td> &nbsp;</td>
+    <td><input type="checkbox" name ="checkbox" value="checkbox"> DLL </td>
   </tr>
 
   <tr>
@@ -353,4 +387,4 @@ footer{
 		<center>&copy; Copyright - Mutiara Fitri Ramadhanti | D1041171005</center>
 </footer>
 </body>
-</html> 
+</html>
