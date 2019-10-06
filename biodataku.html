@@ -46,6 +46,21 @@ th {
 	color: white;
 }
 
+#video{
+	background: #1165ff;
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#video .kontenmedsos{
+	float: left;
+	width: 50%;
+	padding: 0px;
+	margin-bottom: 50px;
+}
+
 #hasil{
 	color:olive;
 	font-size:12px;
@@ -85,7 +100,6 @@ th {
 	color: DarkTurquoise;
 	text-align: center;
 	font-size: 19px;
-	margin: 0px;
 	float: left;
 	width: 50%;
 	height: auto;
@@ -95,7 +109,7 @@ th {
 	background: darkslategray;
 	text-align: center;
 	font-size: 18px;
-	padding: 8px 0 8px 0;
+	padding: 35px 0 34px 0;
 	margin: 0px;
 	float: left;
 	width: 50%;
@@ -134,7 +148,7 @@ footer{
 }
 	
 @media (max-width: 500px) {
- .navigasi, .hasil, .header, .konten, .navigasi a,footer, #kotak img, #kotak .biodata, #kotak .profil, .konten, .kontenmedsos {
+ .navigasi, .hasil, .header, .konten, .navigasi a,footer, #kotak img, #kotak .biodata, #kotak .profil, .konten, .kontenmedsos, #video, #video .kontenmedsos{
     			float:none;
 	 		width: auto;
     			height: 100%;
@@ -283,22 +297,31 @@ footer{
 </div>
 </section>
 
+<section id="video">
 <br/><br/><center>
 
 	<div class ="konten"> Hiburan Semata
 	</div>
 	<div class="kontenmedsos">
-	<iframe width ="auto" height= "auto"src="https://youtube.com/embed/HmN61FLMnNY" frameborder="0" ">
+	<iframe width ="320" height= "240"src="https://youtube.com/embed/HmN61FLMnNY" frameborder="0" ">
 	</iframe>
-
+</div>
+<div class="kontenmedsos">
 	<video width="320" height="240" controls="controls">
 	<source src="video/video.mp4" type="video/mp4" />
 	Your browser does not support the video tag.
 	</video>
+</div>
 
-	<audio src ="audio/lagu.mp3" controls >
-	</audio>
-	</div> </center>
+</center>
+</section>
+
+<center>
+Lagu Senorita. Sile diputar~
+</center>
+<center>
+<audio src ="audio/lagu.mp3" controls >
+</audio> </center>
 
 <br>
 <marquee><h5 style = "font-family: Lucida Calligraphy;"> Have a nice day ya Sobat ^_^</marquee></h5>
