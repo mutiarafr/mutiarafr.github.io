@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<title>Biodata Mutiara</title>
+	<title>BIODATAKU</title>
 	<meta charset="utf-8">
 	<meta name="author" content ="Mutiara Fitri Ramadhanti">
 	<meta name="keyword" content ="Website Mutiara">
@@ -10,118 +9,139 @@
 	<meta name="description" content="Memiliki biodata diri dan Form Pendaftaran">
 	<meta name="robots" content="noindex, nofollow">
 	<link rel ="icon" href="image/aku.jpg">
+
 <style>
- 
-header {
-	background-color:black;
-    text-align: center;
-    font-size: 30px;
-    font-family: comic sans ms;
-	padding: 13px;
-    color:  #808080;
-	margin-left: auto;
-	margin-right: auto;}
-	
-footer{
+
+body {
+	margin: 0;
+	padding: 0;
+	background: DarkTurquoise;
+}
+
+.header, .navigasi, .footer{
+	margin-bottom: 1px;
+	padding: 10px 0;
+}
+
+.header {
+	width: 100%;
+	height: auto;
 	background: DarkTurquoise;
 	text-align: center;
-	font-size: 20px;}
-	
-#wrapper{
-    margin:auto;
-    padding: 0;
-    width:345px;
-    height: auto;
-    background:DarkTurquoise;}
-	
-.headerbiodata{
-    margin:auto;
-    background: DarkTurquoise;
-    color:black;
-    font-family:Vivaldi; 
-    font-size:35px;
-    text-align: center;
-    padding-bottom: 10px;}
+	color: black;
+	font-family: Castellar;
+}
 
-.gambar{
-     margin:auto;}
-	 
-.isibiodata{
-    margin:auto;
-    background:DarkTurquoise;
-    color:black;
-    font-family: Segoe UI;
-    font-size:15px;}
-	
-.poto{
-    display: block;
-    border-radius: 50%;
-    width:200px;
-    height:200px;
-    margin-left: auto;
-    margin-right: auto;}
-	
-.pendidikan {
-	margin:auto;
-    background: black;
-    color:DarkTurquoise;
-    font-family: Segoe UI;
-    font-size:22px;
-    text-align: center;
-    padding-bottom: 7px;}
-	
-.riwayatpendidikan{
-	margin:auto;
-    background:DarkTurquoise;
-    color:black;
-    font-family: Segoe UI;
-    font-size:17px;}
- 
- .akun {
-	margin:auto;
-    background: black;
-    color:DarkTurquoise;
-    font-family: Segoe UI;
-    font-size:22px;
-    text-align: center;
-    padding-bottom: 7px;}
-	
-.akunsosial{
-	margin:auto;
-    background:DarkTurquoise;
-    color:black;
-    font-family: Segoe UI;
-    font-size:15px;}	
-	
-.konten {
-	margin:auto;
-    background: black;
-    color:DarkTurquoise;
-    font-family: Segoe UI;
-    font-size:22px;
-    text-align: center;
-    padding-bottom: 7px;}
-	
-.kontenmedsos {
-	margin:auto;
-    background:black;}
-	
+.navigasi {
+	width: 100%;
+	height: auto;
+	background: linear-gradient(to right, grey, black);
+	text-align: center;
+}
+
+td{
+	color: Turquoise;
+}
+
+th{
+	color: white;
+}
+.navigasi ul{
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+}
+
+.navigasi li{
+	float: left;
+	font-size: 16px;
+	margin: 0 5px;
+}
+
+.navigasi a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.navigasi a:hover{
+	color: DarkTurquoise;
+	font-weight: bold;
+}
+
+.biodata a:hover{
+	color: black;
+	font-weight: bold;
+}
+
+#kotak .profil{
+	background-color: black;
+	color: DarkTurquoise;
+	text-align: center;
+	font-size: 25px;
+	margin: 0px;
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+#kotak .biodata{
+	background: darkslategray;
+	text-align: center;
+	font-size: 24px;
+	padding: 12px 0 12px 0;
+	margin: 0px;
+	float: left;
+	width: 50%;
+	height:auto;
+}
+
+
+#kotak img{width: 35%;}
+
+footer{
+	font-size: 13px;
+	padding: 8px;
+	color:white;
+	background: linear-gradient(to right, black, dimgrey);
+}
+
 @media (max-width: 500px) {
-	.isibiodata,riwayatpendidikan,akunsosial{
-		width: auto;
-		height: 100%;}
+ .navigasi, .header, .navigasi, .konten, .navigasi a,footer, #kotak img, #kotak .biodata, #kotak .profil {
+    			float:none;
+	 		width: auto;
+    			height: 100%;
+  }
+	
+.navigasi li,.navigasi ul,{
+		width:100%;
+		float:none;
+		text-align: center;
+}
+
 </style>
 </head>
-
-<header > Biodata Diri</header>
-
-<body background = image/warna.png>
-<div id="wrapper">
-	<div class="gambar">
-	<img src="image/aku.jpg" class="poto"></img>
+<body>
+<header> 
+	<div class="header">
+		<h1>Selamat Datang di WEBSITE HTML</h1>
+		<h4>Punya MUTIARA FITRI RAMADHANTI</h4>
 	</div>
- 
-	<div class="isibiodata">
+	<div class="navigasi">
+			<ul>
+				<li><a href="pengantar.html">Kata Pengantar</a></li>
+				<li><a href="biodataku.html">Biodataku</a></li>
+				<li><a href="form.html">Form Pendaftaran</a></li>
+			</ul>
+	</div>
+</header>
+
+<section id= "kotak">
+		<div class="profil">
+			<img src="image/profil.png">
+			<h3 style="color: gold"> Profil Diri </h3>
+	<center>
 	<table>
 	<tr>
 	<th>Nama </th> 
@@ -191,15 +211,13 @@ footer{
     <th>Nama Adik </th> 
     <td>Marshanda Aulia Putri</td>
 	</tr>
+	</center>
 </table>
-<br/>
- </div>
- </div>
-
-<div id="wrapper">
-	<div class="pendidikan">Riwayat Pendidikan
 	</div>
-	<div class="riwayatpendidikan">
+
+		<div class="biodata">
+			<img src="image/pendidikan.png">
+			<h3 style="color: gold;"> Riwayat Pendidikan </h3>
 	<center>
 	<table>
 	<tr>
@@ -211,58 +229,34 @@ footer{
 	<tr>
     <td>SMA Negeri 2 Pontianak </td>
 	</tr>	
-	</table>
 	</center>
-	<br/>
+	</table>
 	</div>
-</div>
-
-
-<div id="wrapper">
-	<div class="akun">Sosial Media
-	</div>
-	<div class="akunsosial">
+		
+		<div class="biodata">
+			<img src="image/medsos.png">
+			<h3 style="color:gold"> Akun Media Sosial </h3>
 	<center>
 	<table>
 	<tr>
   	<th>Facebook</th>
-  	<td><a href="http://www.facebook.com/mutiara.fitri.ramadhantiii"> <b style = "color : rgb(115, 78, 30)"> Mutiara Fitri Ramadhanti</a></b></td>
+  	<td><a href="http://www.facebook.com/mutiara.fitri.ramadhantiii"> <b style = "color : black"> Mutiara Fitri Ramadhanti</a></b></td>
 	</tr>
 	<tr>
   	<th>Instagram</th>
-  	<td><a href="http://www.instagram.com/mutiara_fitri"> <b style = "color : rgb(115, 78, 30)"> mutiara_fitri  </a></b></td>
+  	<td><a href="http://www.instagram.com/mutiara_fitri"> <b style = "color : black"> mutiara_fitri  </a></b></td>
 	</tr>
-	</table>
 	</center>
-	</div>
+	</table>
 </div>
+</section>
 
-<br/><br/><center>
+<br>
+<marquee><h5 style = "font-family: Lucida Calligraphy;font-size: 28px;"> Have a nice day ya Sobat ^_^</marquee></h5>
+</br>
 
-	<div class ="konten"> Hiburan Semata
-	</div>
-	<div class="kontenmedsos">
-	<iframe width ="auto" height= "auto"src="https://youtube.com/embed/HmN61FLMnNY" frameborder="0" ">
-	</iframe>
-
-	<video width="320" height="240" controls="controls">
-	<source src="video/video.mp4" type="video/mp4" />
-	Your browser does not support the video tag.
-	</video>
-
-	<audio src ="audio/lagu.mp3" controls >
-	</audio>
-	</div>
-	
 <footer>
-	<a href="pengantar.html">|Menu Awal|</a>
-	<a href="form.html">Form Pendaftaran|</a>
-	
-</body>
+		<center>&copy; Copyright - Mutiara Fitri Ramadhanti | D1041171005</center>
 </footer>
-
-</br/><br/>
-<center>Copyright @ 2019 - Mutiara Fitri Ramadhanti</center>	
-
+</body>
 </html>
-	
