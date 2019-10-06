@@ -100,9 +100,9 @@ footer{
 }
 
 @media (max-width: 767px) {
- 	.navigasi, .header, .navigasi, .konten, .navigasi a,footer{
+ 	.navigasi, .header, .navigasi, .konten, .navigasi a,footer, textarea, select, input, table,td, tr{
     			float:none;
-		 	width: auto;
+		 		width: auto;
     			height: 100%;
 }
 	
@@ -121,6 +121,16 @@ footer{
 		<h1>Selamat Datang di WEBSITE HTML</h1>
 		<h4>Punya MUTIARA FITRI RAMADHANTI</h4>
 	</div>
+
+	<center>
+	<div id="hasil"></div>
+		<script>
+			var tanggal = new Date ();
+
+			document.getElementById("hasil").innerHTML = tanggal;
+		</script>
+	</center>
+
 	<div class="navigasi">
 			<ul>
 				<li><a href="pengantar.html">HOME</a></li>
@@ -128,7 +138,9 @@ footer{
 				<li><a href="form.html">FORM PENDAFTARAN</a></li>
 			</ul>
 	</div>
+
 </header>
+
 
 <center>
 <form >
@@ -386,5 +398,5 @@ footer{
 <footer>
 		<center>&copy; Copyright - Mutiara Fitri Ramadhanti | D1041171005</center>
 </footer>
-</body>  
+</body>
 </html>
